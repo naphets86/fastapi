@@ -1,6 +1,6 @@
 # FastAPI – Die ausführliche Dokumentation
 
-> Eine praxisnahe Einführung und Referenz zu **FastAPI**, durchgängig illustriert am Projekt **subnetplan** (`web/api.py`), das FastAPI sehr sauber einsetzt: zustandslose JSON-API, vollständig dokumentiertes OpenAPI-Schema, einheitliche Fehlerantworten, dünne Endpunkte und eine strikte Trennung von Web- und Fachlogik, siehe https://github.com/naphz86/sbntgg
+> Eine praxisnahe Einführung und Referenz zu **FastAPI**, durchgängig illustriert am Projekt **subnetplan** (`web/api.py`), das FastAPI sehr sauber einsetzt: zustandslose JSON-API, vollständig dokumentiertes OpenAPI-Schema, einheitliche Fehlerantworten, dünne Endpunkte und eine strikte Trennung von Web- und Fachlogik, siehe https://github.com/naphets86/sbntgg
 
 Diese Dokumentation hat zwei Ziele:
 
@@ -2610,7 +2610,7 @@ client = TestClient(app); client.post("/api/v1/things", json={…}).json()
 - OpenAPI-Spezifikation: <https://spec.openapis.org>
 - SQLModel: <https://sqlmodel.tiangolo.com>
 - Schemathesis (Vertragstests): <https://schemathesis.readthedocs.io>
-- Das Beispielprojekt: `web/api.py`, `tests/test_web_api.py`, Abschnitt „JSON API“ der `README.md`, https://github.com/naphz86/sbntgg
+- Das Beispielprojekt: `web/api.py`, `tests/test_web_api.py`, Abschnitt „JSON API“ der `README.md`, https://github.com/naphets86/sbntgg
 
 ---
 
