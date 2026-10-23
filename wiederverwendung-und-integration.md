@@ -4,7 +4,7 @@
 
 Die Projektstruktur trennt zwei Schichten:
 
-- `src/` enthält den **Kern**: den Subgraph-Algorithmus mit seiner gesamten Fachlogik. Er kennt weder HTTP noch FastAPI und bleibt bei jeder Integration **unverändert erhalten**.
+- `src/` enthält den **Kern**: den Subgraph Algorithmus mit seiner gesamten Fachlogik. Er kennt weder HTTP noch FastAPI und bleibt bei jeder Integration **unverändert erhalten**.
 - `web/` enthält die **Integration**: FastAPI-Anwendung, Routen, Request-/Response-Modelle. Diese Schicht ruft den Kern nur auf und implementiert keine eigene Fachlogik.
 
 Wiederverwendung heißt dann: Der Kern wird nicht kopiert oder umgebaut, sondern von beliebig vielen Schichten (Web, CLI, Bibliothek, Tests) aufgerufen.
